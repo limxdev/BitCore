@@ -59,8 +59,8 @@ public:
             nSentinelVersion = DEFAULT_SENTINEL_VERSION;
             return;
         }
-        READWRITE(fSentinelIsCurrent);
-        READWRITE(nSentinelVersion);
+        //READWRITE(fSentinelIsCurrent);
+        //READWRITE(nSentinelVersion);
     }
 
     uint256 GetHash() const
